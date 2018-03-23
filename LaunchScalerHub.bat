@@ -1,0 +1,1 @@
+java -DpropertyFileLocation=aws.properties -DipAddress="10.255.21.225" -cp automation-grid.jar org.openqa.grid.selenium.GridLauncherV3 -role hub -hubConfig hub.json
